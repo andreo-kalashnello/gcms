@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/src/style/style.css" />
+    <link rel="stylesheet" href="/src/style/media.css" />
+    <link rel="stylesheet" href="/src/style/animate.css" />
+    <title>Document</title>
+  </head>
+  <body class="pt-0">
+    <div class="wrap">
+      <header class="header wow fadeInDown">
+        <div class="container">
+          <div class="header-wrap">
+            <a class="logo-link" href="/index.html">
+              <img class="logo" src="/assets/img/logo.svg" alt="" />
+            </a>
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__list-item">
+                  <a
+                    class="nav__list-link b-br-bg red-c"
+                    data-text="Home"
+                    href="/index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav__list-item">
+                  <a
+                    class="nav__list-link"
+                    data-text="Ai To Noroi"
+                    href="/pages/ai-to-noroi.html"
+                    >Ai To Noroi</a
+                  >
+                </li>
+                <li class="nav__list-item">
+                  <a
+                    class="nav__list-link"
+                    data-text="News"
+                    href="/pages/news.html"
+                    >News</a
+                  >
+                </li>
+                <li class="nav__list-item">
+                  <a
+                    class="nav__list-link"
+                    data-text="Bug reporting"
+                    href="/pages/bug-reporting.html"
+                    >Bug reporting</a
+                  >
+                </li>
+                <li class="nav__list-item">
+                  <a
+                    class="nav__list-link"
+                    data-text="Social media"
+                    href="/pages/social-media.html"
+                    >Social media</a
+                  >
+                </li>
+                <li class="nav__list-item">
+                  <a
+                    class="nav__list-link"
+                    data-text="Texting"
+                    href="/pages/texting.html"
+                    >Texting</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <div class="socialmedia">
+              <a class="soc-discord" href="https://discord.gg/YAtkdWGtTV">
+                <img class="" src="/assets/img/discord.svg" alt="discord" />
+              </a>
+              <a class="soc-instagram" href="https://instagram.com/gcms.dev">
+                <img src="/assets/img/instagram.svg" alt="instagram" />
+              </a>
+              <a class="soc-x" href="https://x.com/CharmingSeal">
+                <img src="/assets/img/twitter.svg" alt="X" />
+              </a>
+              <a
+                class="soc-youtube"
+                href="https://www.youtube.com/channel/UCiy5ratGrgrw3mVuMdTB9Zg">
+                <img src="/assets/img/youtube.svg" alt="YouTube" />
+              </a>
+            </div>
+            <button class="burger-menu" id="burger-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="intro">
+          <video
+            playsinline
+            autoplay
+            muted
+            loop
+            class="intro__video"
+            poster="/assets/img/poster.png"
+            id="bgvid">
+            <source
+              class="intro__source"
+              src="/assets/video/ai-vid.mp4"
+              type="video/mp4" />
+          </video>
+          <img
+            src="/assets/img/poster1.png"
+            class="intro__poster"
+            alt="Poster" />
+          <div class="intro__content container">
+            <div class="intro__content-wrap">
+              <h1 class="intro__title wow fadeInLeft" data-wow-delay="0.4s">
+                GCMS - Gorgeous, Charming, The Magnificent Seal Dev
+                <br />
+              </h1>
+              <p
+                class="intro__text mb-3 mb-md-4 wow fadeInLeft"
+                data-wow-delay="0.8s">
+                Introducing Ai To Noroi, a revolutionary AI-powered texting
+                service that has the potential to change the way we communicate.
+                With its cutting-edge technology, we're bringing a more
+                intuitive and efficient way to connect with friends, family, and
+                colleagues.
+              </p>
+              <a
+                class="intro-btn click-btn btn-style904 wow fadeInLeft"
+                data-wow-delay="1.2s"
+                data-hover="Click me!"
+                href="#"
+                ><span>Ai To Noroi</span></a
+              >
+            </div>
+          </div>
+          <a
+            class="intro__scroll-btn wow fadeInUp"
+            data-wow-delay="1.4s"
+            href="#about">
+            <img src="/assets/img/double-arrow-bottom.svg" alt="" />
+          </a>
+        </section>
+        <div class="container">
+          <section class="section about" id="about">
+            <h2
+              class="section-title mx-auto b-br-sm pink-c wow fadeIn"
+              data-wow-duration="2s"
+              data-wow-offset="100">
+              About Me
+            </h2>
+            <div
+              class="about__specialty-block wow fadeInUp"
+              data-wow-offset="100">
+              <img src="/assets/img/youtubebanner.png" alt="" />
+            </div>
+            <div class="section__block">
+              <div
+                class="section__block-content wow fadeInTopLeft"
+                data-wow-offset="200">
+                <p>
+                  <span class="c-green-c">GCMS</span> - Gorgeous, Charming, The
+                  Magnificent Seal Development is a team of passionate
+                  developers, designers, and creatives who are dedicated to
+                  creating innovative and engaging solutions for our users. We
+                  strive to create products that make communication more
+                  efficient, intuitive, and enjoyable for everyone.
+                </p>
+                <p>
+                  <span class="c-pink-c">Our team</span> consists of experienced
+                  developers, designers, and creatives who have a passion for
+                  technology and communication. We believe that by working
+                  together, we can create products that are not only effective
+                  but also visually stunning and user-friendly.
+                </p>
+                <p>
+                  We are always looking for
+                  <span class="c-red-c">new talent</span> and are excited to
+                  collaborate with those who share our passion for technology
+                  and communication. If you're interested in working with us,
+                  please don't hesitate to reach out to us at
+                </p>
+              </div>
+              <img
+                class="section__block-img wow fadeInTopRight"
+                data-wow-offset="200"
+                src="/assets/img/section-img.jpg"
+                alt="" />
+            </div>
+          </section>
+          <section class="section">
+            <h2
+              class="section-title mx-auto b-br-sm pink-c wow fadeIn"
+              data-wow-duration="2s"
+              data-wow-offset="100">
+              Ai To Noroi
+            </h2>
+            <div class="section__block">
+              <img
+                class="section__block-img wow fadeInBottomLeft"
+                data-wow-offset="200"
+                src="/assets/img/section.img.jpg"
+                alt="" />
+              <div
+                class="section__block-content wow fadeInBottomRight"
+                data-wow-offset="200">
+                <p>
+                  <span class="c-red-c">Ai To Noroi</span> is a revolutionary
+                  AI-powered texting service that has the potential to change
+                  the way we communicate. With its cutting-edge technology,
+                  we're bringing a more intuitive and efficient way to connect
+                  with friends, family, and colleagues.
+                </p>
+                <p>
+                  <span class="c-pink-c">Ai To Noroi</span> is designed to make
+                  communication more efficient, intuitive, and enjoyable for
+                  everyone. It uses advanced AI algorithms to analyze the
+                  context and tone of your messages, enabling you to respond
+                  more effectively and efficiently.
+                </p>
+                <p>
+                  <span class="c-green-c">Ai To Noroi</span> is available on
+                  multiple platforms, including iOS, Android, and web. We're
+                  also working on integrating it with popular messaging apps, so
+                  that you can easily use Ai To Noroi to connect with your
+                  friends, family, and colleagues.
+                </p>
+                <a class="section-btn green-c" href="/pages/ai-to-noroi.html">
+                  Link for Ai To Noroi
+                </a>
+              </div>
+            </div>
+          </section>
+          <section class="section latest__news">
+            <div
+              class="d-flex justify-content-between align-items-center section-header mb-4 mb-md-5">
+              <h2
+                class="section-title mb-0 b-br-sm pink-c wow jackInTheBox"
+                data-wow-offset="100">
+                Latest news
+              </h2>
+              <a
+                class="icon-link icon-link-hover latest__news-link d-flex justify-content-between align-items-center wow jackInTheBox"
+                href="#"
+                data-wow-offset="100">
+                <span>All news</span>
+                <svg
+                  class="bi"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="21"
+                  viewBox="0 0 26 21"
+                  fill="none">
+                  <path
+                    d="M15.1667 1.75L13.65 2.97497L21.8834 9.625H0V11.375H21.8834L13.65 18.025L15.1667 19.25L26 10.5L15.1667 1.75Z"
+                    fill="#6198E7" />
+                </svg>
+              </a>
+            </div>
+            <div
+              class="last-news-slider-wrap wow slideInUp"
+              data-wow-offset="100">
+              <div class="swiper mySwiper last-news-slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="/assets/img/news1.png" alt="News 1" />
+                    <div class="slide-content">
+                      <h3 class="text-truncate" style="max-width: 300px">
+                        Wow new game in game industry
+                      </h3>
+                      <p class="news-date b-br-bg red-c">24 June</p>
+                      <p class="slide-content-text">
+                        Lörem ipsum mikroitet smart content digitalbox i
+                        terraskop om pneumavalens. New retail fonoosmos #metoo
+                        fastän makrora råbel. Molekylärgastronomi nyvis abbel i
+                        spoilervarning för innovationsekosystem och
+                        safariforskning så bred erfarenhet latteliberal tritik.
+                        Vangen omfattande erfarenhet...
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/assets/img/news2.png" alt="News 2" />
+                    <div class="slide-content">
+                      <h3 class="text-truncate" style="max-width: 300px">
+                        Wow new game in...
+                      </h3>
+                      <p class="news-date b-br-bg green-c">24 June</p>
+                      <p class="slide-content-text">
+                        Lörem ipsum mikroitet smart content digitalbox i
+                        terraskop om pneumavalens. New retail fonoosmos #metoo
+                        fastän makrora råbel. Molekylärgastronomi nyvis abbel i
+                        spoilervarning för innovationsekosystem och
+                        safariforskning så bred erfarenhet latteliberal tritik.
+                        Vangen omfattande erfarenhet...
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/assets/img/news3.png" alt="News 3" />
+                    <div class="slide-content">
+                      <h3>Wow new game in...</h3>
+                      <p class="news-date b-br-bg pink-c">24 June</p>
+                      <p class="slide-content-text">
+                        Lörem ipsum mikroitet smart content digitalbox i
+                        terraskop om pneumavalens. New retail fonoosmos #metoo
+                        fastän makrora råbel. Molekylärgastronomi nyvis abbel i
+                        spoilervarning för innovationsekosystem och
+                        safariforskning så bred erfarenhet latteliberal tritik.
+                        Vangen omfattande erfarenhet...
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/assets/img/news2.png" alt="News 2" />
+                    <div class="slide-content">
+                      <h3>Wow new game in...</h3>
+                      <p class="news-date b-br-bg blue-c">24 June</p>
+                      <p class="slide-content-text">
+                        Lörem ipsum mikroitet smart content digitalbox i
+                        terraskop om pneumavalens. New retail fonoosmos #metoo
+                        fastän makrora råbel. Molekylärgastronomi nyvis abbel i
+                        spoilervarning för innovationsekosystem och
+                        safariforskning så bred erfarenhet latteliberal tritik.
+                        Vangen omfattande erfarenhet...
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/assets/img/news3.png" alt="News 2" />
+                    <div class="slide-content">
+                      <h3>Wow new game in...</h3>
+                      <p class="news-date b-br-bg green-c">24 June</p>
+                      <p class="slide-content-text">
+                        Lörem ipsum mikroitet smart content digitalbox i
+                        terraskop om pneumavalens. New retail fonoosmos #metoo
+                        fastän makrora råbel. Molekylärgastronomi nyvis abbel i
+                        spoilervarning för innovationsekosystem och
+                        safariforskning så bred erfarenhet latteliberal tritik.
+                        Vangen omfattande erfarenhet...
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </section>
+          <section class="section">
+            <div class="section__block">
+              <div class="bug-reporting">
+                <h2
+                  class="section-title b-br-sm pink-c mb-0 d-inline-block wow rotateInDownLeft">
+                  Bug reporting
+                </h2>
+                <a
+                  class="icon-link icon-link-hover latest__news-link d-flex align-items-center mb-3 mb-md-4 wow rotateInDownLeft"
+                  href="#">
+                  <span>Bug reporting</span>
+                  <svg
+                    class="bi"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="26"
+                    height="21"
+                    viewBox="0 0 26 21"
+                    fill="none">
+                    <path
+                      d="M15.1667 1.75L13.65 2.97497L21.8834 9.625H0V11.375H21.8834L13.65 18.025L15.1667 19.25L26 10.5L15.1667 1.75Z"
+                      fill="#6198E7"></path>
+                  </svg>
+                </a>
+                <div class="bug-form__wrap">
+                  <h3 class="form__title wow lightSpeedInLeft">Say bug</h3>
+                  <p
+                    class="form__under__title wow lightSpeedInLeft"
+                    data-wow-delay="0.2s">
+                    Lorem Ipsum is simply dummy text of the printing .
+                  </p>
+                  <form action="">
+                    <div class="form-group">
+                      <label for="first-name" class="wow slideInLeft">
+                        <span>First name</span>
+                        <input
+                          type="text"
+                          id="first-name"
+                          name="first-name"
+                          placeholder="First Name" />
+                      </label>
+                      <label for="last-name" class="wow slideInLeft">
+                        <span>Last name</span>
+                        <input
+                          type="text"
+                          id="last-name"
+                          name="last-name"
+                          placeholder="Last Name" />
+                      </label>
+                    </div>
+                    <div class="form-group">
+                      <label class="w-100 wow slideInLeft" for="email">
+                        <span>Email address</span>
+                        <input
+                          type="email"
+                          id="email"
+                          name="email"
+                          placeholder="Email Address" />
+                      </label>
+                    </div>
+                    <div class="form-group">
+                      <label
+                        for="image"
+                        class="custom-file-label w-100 wow slideInLeft"
+                        >Choose Image
+                        <span>Choose Image</span>
+                        <input
+                          type="file"
+                          id="image"
+                          name="image"
+                          accept="image/*"
+                          class="custom-file-input"
+                      /></label>
+                    </div>
+                    <div class="form-group">
+                      <label for="message" class="w-100 wow slideInLeft">
+                        <span>Message</span>
+                        <textarea
+                          id="message"
+                          name="message"
+                          rows="10"
+                          placeholder="Message"></textarea>
+                      </label>
+                    </div>
+                    <button type="submit" class="wow bounceIn">
+                      Get in touch
+                    </button>
+                  </form>
+                </div>
+              </div>
+              <div class="x">
+                <div
+                  class="section-title x-title b-br-sm pink-c wow rotateIn"
+                  data-wow-offset="100">
+                  X
+                </div>
+                <div class="x__wrap wow fadeInUp" data-wow-offset="100">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3">
+                    <img
+                      class="x-scroll-img"
+                      src="/assets/img/twitter-scroll.svg"
+                      alt="" />
+                    <a class="x-scroll-link" href="https://x.com/CharmingSeal"
+                      >https://x.com/CharmingSeal</a
+                    >
+                  </div>
+                  <a
+                    class="twitter-timeline"
+                    data-theme="dark"
+                    href="https://twitter.com/CharmingSeal?ref_src=twsrc%5Etfw"
+                    >Tweets by CharmingSeal</a
+                  >
+                  <script
+                    async
+                    src="https://platform.twitter.com/widgets.js"
+                    charset="utf-8"></script>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer
+        class="footer wow fadeIn"
+        data-wow-offset="100"
+        data-wow-duration="1s">
+        <div class="container">
+          <div class="footer-wrap">
+            <div class="footer-top mb-4">
+              <a
+                class="logo-link me-0 me-md-5 mb-2 mb-md-4 mb-md-0 text-start"
+                href="/index.html">
+                <img class="logo" src="/assets/img/logo.svg" alt="" />
+              </a>
+              <nav class="footer-nav">
+                <ul class="footer-nav__list">
+                  <li class="nav__list-item">
+                    <a
+                      class="nav__list-link"
+                      data-text="Home"
+                      href="./index.html"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav__list-item">
+                    <a
+                      class="nav__list-link"
+                      data-text="Ai To Noroi"
+                      href="./pages/ai-to-noroi.html"
+                      >Ai To Noroi</a
+                    >
+                  </li>
+                  <li class="nav__list-item">
+                    <a
+                      class="nav__list-link"
+                      data-text="News"
+                      href="./pages/news.html"
+                      >News</a
+                    >
+                  </li>
+                  <li class="nav__list-item">
+                    <a
+                      class="nav__list-link"
+                      data-text="Bug reporting"
+                      href="./pages/bug-reporting.html"
+                      >Bug reporting</a
+                    >
+                  </li>
+                  <li class="nav__list-item">
+                    <a
+                      class="nav__list-link"
+                      data-text="Social media"
+                      href="./pages/social-media.html"
+                      >Social media</a
+                    >
+                  </li>
+                  <li class="nav__list-item">
+                    <a
+                      class="nav__list-link"
+                      data-text="Texting"
+                      href="./pages/texting.html"
+                      >Texting</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+              <div class="socialmedia">
+                <a class="soc-discord" href="https://discord.gg/YAtkdWGtTV">
+                  <img class="" src="/assets/img/discord.svg" alt="discord" />
+                </a>
+                <a class="soc-instagram" href="https://instagram.com/gcms.dev">
+                  <img src="/assets/img/instagram.svg" alt="instagram" />
+                </a>
+                <a class="soc-x" href="https://x.com/CharmingSeal">
+                  <img src="/assets/img/twitter.svg" alt="X" />
+                </a>
+                <a
+                  class="soc-youtube"
+                  href="https://www.youtube.com/channel/UCiy5ratGrgrw3mVuMdTB9Zg">
+                  <img src="/assets/img/youtube.svg" alt="YouTube" />
+                </a>
+              </div>
+            </div>
+            <div class="footer__middle mb-4">
+              <p class="text-start" style="max-width: 800px">
+                <span class="c-blue-c">Lorem</span> ipsum dolor sit amet
+                consectetur, adipisicing elit. Inventore, tempora! Aspernatur,
+                molestiae eaque quas, culpa cumque error odit, nesciunt sed
+                officia explicabo excepturi doloribus. Nostrum accusamus
+                deleniti suscipit quia molestiae?
+              </p>
+            </div>
+            <div class="footer-bottom">&copy; 2024 GCMS.dev</div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+    <script src="/src/js/main.js"></script>
+    <script src="/src/js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>
